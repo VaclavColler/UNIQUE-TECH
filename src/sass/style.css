@@ -722,4 +722,237 @@
   font-size: 16px;
   font-weight: 300;
 }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .header__nav ul li {
+    margin: 0 15px;
+  }
+  .header__device {
+    top: 45%;
+    left: 45%;
+    width: 50%;
+  }
+  .header__body_text h1 {
+    font-size: 35px;
+    margin-bottom: 0;
+  }
+  .header__body_text p {
+    line-height: 27px;
+  }
+  .plan__wrapper {
+    padding: 100px 0 0 0;
+  }
+  .plan__block {
+    padding-bottom: 120px;
+  }
+  .scheme__image {
+    width: 90%;
+  }
+  .features__wrapper {
+    padding: 90px 0 40px 0;
+  }
+  .history p {
+    width: 400px;
+  }
+  .business img {
+    width: 90%;
+  }
+  .support p {
+    width: 430px;
+    font-size: 15px;
+    line-height: 27px;
+  }
+  .hire img {
+    width: 90%;
+  }
+  .hire__block {
+    width: 90%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .header {
+    height: 550px;
+  }
+  .header__wrapper {
+    padding: 25px 0 40px 0;
+  }
+  .header__logo img {
+    width: 90%;
+  }
+  .header__nav ul li {
+    margin: 0 8px;
+    font-size: 12px;
+  }
+  .header__body {
+    margin-top: 30px;
+  }
+  .header__device {
+    top: 50%;
+    left: 45%;
+    width: 50%;
+  }
+  .header__body_text h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .header__body_text p {
+    width: 300px;
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .title {
+    width: 250px;
+    height: 45px;
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  .plan__wrapper {
+    padding: 50px 0 0 0;
+  }
+  .plan__block {
+    padding-bottom: 80px;
+  }
+  .plan__block img {
+    width: 50%;
+    height: 50%;
+  }
+  .plan__text {
+    margin-left: 10px;
+    width: 400px;
+    height: 245px;
+  }
+  .plan__text h4 {
+    font-size: 17px;
+  }
+  .plan__text p {
+    line-height: 19px;
+    font-size: 12px;
+  }
+  .plan__button {
+    width: 120px;
+    height: 40px;
+  }
+  .scheme__wrapper {
+    padding: 30px 0 50px 0;
+  }
+  .scheme__image {
+    width: 90%;
+  }
+  .features__wrapper {
+    padding: 60px 0 10px 0;
+  }
+  .features__column {
+    width: auto;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .features p {
+    font-size: 13px;
+  }
+  .packages__column_left h5 {
+    padding-bottom: 10px;
+  }
+  .packages__column_left h6 {
+    padding-bottom: 27px;
+  }
+  .packages__column_left p {
+    margin-bottom: 10px;
+  }
+  .packages__left_btn {
+    width: 150px;
+  }
+  .packages__column_mid h5 {
+    padding-bottom: 10px;
+  }
+  .packages__column_mid h6 {
+    padding-top: 0;
+  }
+  .packages__column_mid p {
+    margin-bottom: 10px;
+  }
+  .packages__mid_btn {
+    width: 150px;
+  }
+  .packages__column_right h5 {
+    padding-bottom: 10px;
+  }
+  .packages__column_right h6 {
+    padding-top: 11px;
+    padding-bottom: 28px;
+  }
+  .packages__column_right p {
+    margin-bottom: 10px;
+  }
+  .packages__right_btn {
+    width: 150px;
+  }
+  .history img {
+    width: 60%;
+    height: 60%;
+  }
+  .history p {
+    width: 270px;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 15px;
+  }
+  .business__wrapper {
+    padding: 40px 0;
+  }
+  .business__title {
+    margin-bottom: 50px;
+  }
+  .business__projects {
+    width: 90%;
+  }
+  .team img {
+    width: 70%;
+  }
+  .team h4 {
+    font-size: 12px;
+  }
+  .team h5 {
+    font-size: 14px;
+  }
+  .team ul {
+    padding: 20px;
+  }
+  .team__block {
+    height: 200px;
+  }
+  .support__wrapper {
+    padding: 25px 0;
+  }
+  .support__img {
+    width: 60%;
+    height: 60%;
+  }
+  .support p {
+    width: 300px;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .hire__wrapper {
+    padding: 40px 0;
+  }
+  .hire img {
+    width: 90%;
+  }
+  .hire__block {
+    width: 90%;
+  }
+  .footer {
+    height: 370px;
+  }
+  .footer h5 {
+    font-size: 15px;
+  }
+  .footer a {
+    font-size: 13px;
+  }
+  .footer__copyright {
+    font-size: 13px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
