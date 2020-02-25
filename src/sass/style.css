@@ -1,6 +1,8 @@
 @import url(/Users/daniel/Desktop/Project/src/css/font.css);
 @import url(/Users/daniel/Desktop/Project/src/css/bootstrap-reboot.min.css);
 @import url(/Users/daniel/Desktop/Project/src/css/bootstrap-grid.min.css);
+@import url(/Users/daniel/Desktop/Project/src/css/burger.css);
+@import url(/Users/daniel/Desktop/Project/src/css/ScrollToTop.css);
 * {
   margin: 0;
   padding: 0;
@@ -116,7 +118,7 @@
 }
 
 .plan__wrapper {
-  padding: 141px 0 130px 0;
+  padding: 141px 0 30px 0;
 }
 
 .plan__block {
@@ -125,7 +127,7 @@
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding-bottom: 210px;
+  padding-bottom: 140px;
 }
 
 .plan__block:nth-child(5) {
@@ -723,6 +725,10 @@
   font-weight: 300;
 }
 
+.device {
+  display: none;
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
   .header__nav ul li {
     margin: 0 15px;
@@ -788,7 +794,7 @@
     margin-top: 30px;
   }
   .header__device {
-    top: 50%;
+    top: 30% !important;
     left: 45%;
     width: 50%;
   }
@@ -953,6 +959,364 @@
   }
   .footer__copyright {
     font-size: 13px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .device {
+    display: block;
+  }
+  .header {
+    height: 645px;
+    text-align: center;
+  }
+  .header__wrapper {
+    padding: 30px 0 0 0;
+  }
+  .header__nav {
+    display: none;
+  }
+  .header__device {
+    display: none;
+  }
+  .header__body_text p {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .plan__wrapper {
+    padding: 60px 0;
+  }
+  .plan__block {
+    display: block;
+    text-align: center;
+    height: 320px;
+    padding-bottom: 0;
+  }
+  .plan img {
+    display: none;
+  }
+  .plan__text {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .title {
+    margin-bottom: 70px;
+  }
+  .scheme__wrapper {
+    padding: 50px 0;
+  }
+  .scheme__image {
+    width: 90%;
+  }
+  .features__wrapper {
+    padding: 50px 0 25px 0;
+  }
+  .features__column {
+    height: auto;
+    margin-bottom: auto;
+  }
+  .packages__left_btn {
+    width: 100px;
+  }
+  .packages__mid_btn {
+    width: 100px;
+    font-size: 13px;
+  }
+  .packages__right_btn {
+    width: 100px;
+  }
+  .packages__column_mid h6 {
+    padding-top: 0;
+  }
+  .packages__column_mid h6 span {
+    font-size: 35px;
+  }
+  .packages__column_right h6 {
+    padding-top: 15px;
+  }
+  .history__img {
+    display: none;
+  }
+  .history__title {
+    margin: 0 auto;
+  }
+  .history p {
+    width: 90%;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 15px;
+    line-height: 26px;
+  }
+  .history__btn {
+    display: block;
+    margin: 0 auto;
+  }
+  .business__wrapper {
+    padding: 50px 0;
+  }
+  .business__title {
+    margin-bottom: 50px;
+  }
+  .business__projects {
+    width: 95%;
+  }
+  .team {
+    display: none;
+  }
+  .support__wrapper {
+    padding: 10px 0;
+  }
+  .support__block {
+    display: block;
+  }
+  .support p {
+    display: block;
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .support__btn {
+    display: block;
+    margin: 30px auto;
+  }
+  .support__img {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+  .hire img {
+    width: 90%;
+  }
+  .hire__block {
+    width: 90%;
+    height: 60px;
+    padding: 14px;
+  }
+  .hire h4 {
+    font-size: 12px;
+    padding-top: 8px;
+  }
+  .hire button {
+    width: 130px;
+    height: 30px;
+  }
+  .footer {
+    height: 150px;
+  }
+  .footer .row {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+  .device {
+    display: block;
+  }
+  .header {
+    height: 625px;
+  }
+  .header__nav {
+    display: none;
+  }
+  .header__wrapper {
+    padding: 30px 0;
+  }
+  .header__body_text h1 {
+    font-size: 30px;
+  }
+  .header__body_text p {
+    width: 90%;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .header__device {
+    display: none;
+  }
+  .title {
+    width: 70%;
+    margin-bottom: 40px;
+    font-size: 17px;
+    padding-top: 14px;
+  }
+  .plan__wrapper {
+    padding: 60px 0 20px 0;
+  }
+  .plan__block {
+    padding-bottom: 150px;
+  }
+  .plan__block img {
+    display: none;
+  }
+  .plan__text {
+    text-align: center;
+  }
+  .scheme__wrapper {
+    padding: 40px 0;
+  }
+  .scheme__image {
+    width: 98%;
+  }
+  .main-nav li {
+    margin: 0;
+  }
+  .features__wrapper {
+    padding: 50px 0 10px 0;
+  }
+  .features__column {
+    display: block;
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .features__column i {
+    font-size: 20px;
+  }
+  .features h6 {
+    font-size: 16px;
+  }
+  .features p {
+    font-size: 13px;
+    line-height: 19px;
+  }
+  .packages__wrapper {
+    padding: 30px 0;
+  }
+  .packages__column_left {
+    padding: 0;
+  }
+  .packages__column_left h5 {
+    font-size: 18px;
+    padding-bottom: 0;
+  }
+  .packages__column_left p {
+    font-size: 13px;
+    padding-bottom: 0;
+  }
+  .packages__column_left h6 {
+    font-size: 14px;
+    padding: 0;
+  }
+  .packages__column_left h6 span {
+    font-size: 30px;
+  }
+  .packages__column_mid {
+    padding: 0;
+  }
+  .packages__column_mid h5 {
+    font-size: 18px;
+    padding-bottom: 0;
+  }
+  .packages__column_mid p {
+    font-size: 13px;
+    padding-bottom: 0;
+  }
+  .packages__column_mid h6 {
+    font-size: 14px;
+    padding: 0;
+  }
+  .packages__column_mid h6 span {
+    font-size: 30px;
+  }
+  .packages__column_right {
+    padding: 0;
+  }
+  .packages__column_right h5 {
+    font-size: 18px;
+    padding-bottom: 0;
+  }
+  .packages__column_right p {
+    font-size: 13px;
+    padding-bottom: 0;
+  }
+  .packages__column_right h6 {
+    font-size: 14px;
+    padding: 0;
+  }
+  .packages__column_right h6 span {
+    font-size: 30px;
+  }
+  .packages__left_btn {
+    width: 80px;
+    height: 30px;
+    font-size: 11px;
+  }
+  .packages__mid_btn {
+    width: 80px;
+    height: 30px;
+    font-size: 11px;
+  }
+  .packages__right_btn {
+    width: 80px;
+    height: 30px;
+    font-size: 11px;
+  }
+  .history {
+    display: none;
+  }
+  .business {
+    display: none;
+  }
+  .team {
+    display: none;
+  }
+  .support__wrapper {
+    padding: 25px 0;
+  }
+  .support img {
+    display: none;
+  }
+  .support p {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .support__btn {
+    width: 150px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 70px;
+  }
+  .hire__wrapper {
+    padding: 40px 0;
+  }
+  .hire img {
+    width: 98%;
+  }
+  .hire__block {
+    width: 98%;
+    height: 46px;
+    padding: 8px;
+  }
+  .hire h4 {
+    font-size: 10px;
+  }
+  .hire button {
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+  }
+  .footer {
+    height: 140px;
+  }
+  .footer .row {
+    display: none;
+  }
+  .footer__copyright {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header__device {
+    top: 40% !important;
+    left: 42%;
   }
 }
 /*# sourceMappingURL=style.css.map */

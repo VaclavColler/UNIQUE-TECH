@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UNIQUE-TECH</title>
     <link rel="stylesheet" href="css/style.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="home">
         <div class="container">
             <div class="header__wrapper">
                 <div class="header__head">
@@ -18,7 +19,7 @@
                     </div>
                     <div class="header__nav">
                         <ul>
-                            <li><a href="#">Home</a></li>
+                            <li><a href="#home">Home</a></li>
                             <li><a href="#">Services</a></li>
                             <li><a href="#">About</a></li>
                             <li><a href="#">Portfolio</a></li>
@@ -49,6 +50,37 @@
             </div>
         </div>
     </header>
+
+    <div class="device">
+        <div class="box">
+            <button id="burger" class="open-main-nav">
+                <span class="burger"></span>
+                <span class="burger-text">Menu</span>
+            </button>
+            <nav class="main-nav" id="main-nav">
+                <ul>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">Academic</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 
     <section class="plan">
         <div class="container">
@@ -120,7 +152,7 @@
                 <div class="title features__itile">OUR FEATURES</div>
                 <div class="row">
 
-                    <div class="col-xl-4 col-sm-4 features__column">
+                    <div class="col-xl-4 col-sm-4 col-6 features__column">
                         <i class="far fa-file-alt"></i>
                         <div class="features__text">
                             <h6>Visual Composer</h6>
@@ -130,7 +162,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-4 col-sm-4 features__column">
+                    <div class="col-xl-4 col-sm-4 col-6 features__column">
                         <i class="fas fa-desktop"></i>
                         <div class="features__text">
                             <h6>Responsive</h6>
@@ -140,7 +172,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-4 col-sm-4 features__column">
+                    <div class="col-xl-4 col-sm-4 col-6 features__column">
                         <i class="fas fa-laptop"></i>
                         <div class="features__text">
                             <h6>Retina Ready</h6>
@@ -150,7 +182,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-4 col-sm-4 features__column">
+                    <div class="col-xl-4 col-sm-4 col-6 features__column">
                         <i class="fas fa-pencil-alt"></i>
                         <div class="features__text">
                             <h6>Typography</h6>
@@ -160,7 +192,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-4 col-sm-4 features__column">
+                    <div class="col-xl-4 col-sm-4 col-6 features__column">
                         <i class="fas fa-wallet"></i>
                         <div class="features__text">
                             <h6>Theme Options Pannel</h6>
@@ -170,7 +202,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-4 col-sm-4 features__column">
+                    <div class="col-xl-4 col-sm-4 col-6 features__column">
                         <i class="far fa-hand-point-up"></i>
                         <div class="features__text">
                             <h6>Dummy Content</h6>
@@ -180,7 +212,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-4 col-sm-4 features__column">
+                    <div class="col-xl-4 col-sm-4 col-6 features__column">
                         <i class="fas fa-globe"></i>
                         <div class="features__text">
                             <h6>Many Style Available</h6>
@@ -190,7 +222,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-4 col-sm-4 features__column">
+                    <div class="col-xl-4 col-sm-4 col-6 features__column">
                         <i class="fas fa-crop"></i>
                         <div class="features__text">
                             <h6>Header Style</h6>
@@ -200,7 +232,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-4 col-sm-4 features__column">
+                    <div class="col-xl-4 col-sm-4 col-6 features__column">
                         <i class="fas fa-shopping-bag"></i>
                         <div class="features__text">
                             <h6>10000+ icons</h6>
@@ -210,7 +242,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-4 col-sm-4 features__column">
+                    <div class="col-xl-4 col-sm-4 col-6 features__column">
                         <i class="fas fa-satellite-dish"></i>
                         <div class="features__text">
                             <h6>Support</h6>
@@ -220,7 +252,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-4 col-sm-4 features__column">
+                    <div class="col-xl-4 col-sm-4 col-6 features__column">
                         <i class="fas fa-gem"></i>
                         <div class="features__text">
                             <h6>Update</h6>
@@ -230,7 +262,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-4 col-sm-4 features__column">
+                    <div class="col-xl-4 col-sm-4 col-6 features__column">
                         <i class="fas fa-mug-hot"></i>
                         <div class="features__text">
                             <h6>SEO Ready</h6>
@@ -249,7 +281,7 @@
             <div class="packages__wrapper">
                 <div class="title packages__title">OUR PACKAGES</div>
                 <div class="row packages__row">
-                    <div class="col-xl-3 col-md-3 packages__column_left">
+                    <div class="col-xl-3 col-md-3 col-3 packages__column_left">
                         <h5>Basic</h5>
                         <p>5 web sites</p>
                         <p>15 e-mails</p>
@@ -259,7 +291,7 @@
                         <button class="packages__left_btn">ORDER NOW</button>
                     </div>
 
-                    <div class="col-xl-3 col-md-3 packages__column_mid">
+                    <div class="col-xl-3 col-md-3 col-3 packages__column_mid">
                         <h5>Standard</h5>
                         <p>15 web sites</p>
                         <p>40 e-mails</p>
@@ -269,7 +301,7 @@
                         <button class="packages__mid_btn">ORDER NOW</button>
                     </div>
 
-                    <div class="col-xl-3 col-md-3 packages__column_right">
+                    <div class="col-xl-3 col-md-3 col-3 packages__column_right">
                         <h5>Premium</h5>
                         <p>30 web sites</p>
                         <p>50 e-mails</p>
@@ -286,7 +318,7 @@
     <section class="history">
         <div class="container">
             <div class="history__wrapper">
-                <img src="icons/history.png" alt="history">
+                <img src="icons/history.png" alt="history" class="history__img">
                 <div class="history__text_block">
                     <div class="history__title">OUR HISTORY</div>
                     <p>
@@ -437,7 +469,7 @@
 
 
 
-
+    <script src="js/script.js"></script>
     <script src="https://kit.fontawesome.com/bec5ea4eb8.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
